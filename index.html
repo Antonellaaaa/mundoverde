@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--animation on scroll--> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <title>INICIO</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg hover">
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="./imagenes/logo (1).png" class="logo-imagen" alt="">
+                    <h2 class="logo-nombre">Mundo Verde</h2>
+                </div>
+                <div class="botonmedio">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              <div class="collapse navbar-collapse justify-content-end hover" id="navbarNavDropdown">
+                  <ul class="navbar-nav nav hover">
+                      <li class="nav-item header_item hover">
+                          <a class="nav-link hover "  aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item header_item">
+                    <a class="nav-link hover hover" href="./vistas/stock.html">Stock</a>
+                  </li>
+                  <li class="nav-item header_item">
+                    <a class="nav-link hover hover" href="./vistas/miplanta.html">Mi planta</a>
+                  </li>
+                  <li class="nav-item header_item">
+                    <a class="nav-link hover hover" href="./vistas/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item header_item">
+                    <a class="nav-link hover hover" href="./vistas/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+    <section class="container-fluid contenedor-carrusel p-0">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner carrusel--alto">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./imagenes/trabaja con nosotros.jpg" class="d-block w-100 carrusel--img" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/10 años paint.png" class="d-block w-100 carrusel--img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/publi 3.jpg" class="d-block w-100 carrusel--img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="container-fluid p-0" data-aos="fade-right">
+        <div class="displayflex">
+            <h2 class="tituloindex">DESTACADOS</h2>
+        </div>
+            <div class="row info" data-aos="fade-up" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="col-md-4 cardindex">
+                    <h3>Tierra</h3>
+                    <img class="imagenindex1" src="./imagenes/tierra.jpg" alt="">
+                    <a  class="btnindex" href="">Ver más</a>
+                </div> 
+                <div class="col-md-4 cardindex">
+                     <h3> Espatifilo</h3>
+                     <img class="imagenindex1" src="imagenes/Espatifilo (Spathiphyllum wallisii).jpg" alt="">
+                    <a class="btnindex"href="">Ver más</a>
+                    </div> 
+                <div class="col-md-4 cardindex">
+                    <h3>Dieffenbachia</h3>
+                    <img class="imagenindex1" src="./imagenes/dieffenbachia interior.jpg" alt="">
+                   <a class="btnindex"href="">Ver más</a>
+                </div>
+           </div>
+    </section>
+
+    <section class="container-fluid p-0" data-aos="fade-right" data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+    <div class="displayflex">
+        <h2 class="tituloindex">LO MAS VENDIDO</h2>
+        </div>
+            <div class="row info" data-aos="fade-up" data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="col-md-4 cardindex">
+                    <h3>Planta acuatica</h3>
+                    <img class="imagenindex1" src="./imagenes/acuatica.loto.jpg" alt="">
+                    <a  class="btnindex" href="">Ver más</a>
+                </div> 
+                <div class="col-md-4 cardindex">
+                     <h3>Planta colgante</h3>
+                     <img class="imagenindex1" src="./imagenes/colgante.jpg" alt="">
+                    <a class="btnindex"href="">Ver más</a>
+                    </div> 
+                <div class="col-md-4 cardindex">
+                    <h3>Gardenia</h3>
+                    <img class="imagenindex1" src="./imagenes/Gardenia (Gardenia jasminoides).jpg" alt="">
+                   <a class="btnindex"href="">Ver más</a>
+                </div>
+           </div>
+    </section>
+  
+    <footer>
+        <div>
+            <img class="footerredes" src="./imagenes/logo twitter.png" alt="">
+            <img class="footerredes" src="./imagenes/logo ig.jpg" alt="">
+        </div>
+        Copyright © 2022 - Todos los derechos reservados
+    </footer>
+    <!--animation on scroll-->
+    <script>
+        AOS.init();
+      </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
