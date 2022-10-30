@@ -1,0 +1,53 @@
+/*index*/
+
+.contenedor-carrusel{
+    margin-top: 35px;
+}
+.carrusel--alto{
+    height: 70vh;
+    padding: 0px;
+   
+}
+
+.carrusel--img{
+    object-fit: cover;
+    object-position: center;
+    height: 70vh;
+}
+
+.tituloindex{
+    margin-top: 41px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    color: #1d6933;
+    background-color: burlywood;
+}
+
+.displayflex{
+    display: flex;
+    justify-content: center;
+}
+
+.cardindex{
+    background-color:white;
+    padding: 1rem 1rem;
+}
+
+.imagenindex1{
+    width: 200px;
+    height: 200px;
+}
+
+.btnindex{
+        background-color: #d2691e;
+        color: white;
+        border-radius: 2px;
+        font-weight: bold;
+        padding: 5px 8px;
+        box-shadow: 2px 2px 10px black;
+        display: block;
+        margin: 33px;
+        width: 100px;
+        margin-left: 144px;
+    }

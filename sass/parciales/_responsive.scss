@@ -1,0 +1,237 @@
+/*RESPONSIVE HASTA index */
+
+@media screen and (max-width:768px)and (min-width:321px) {
+    .logo-nombre{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 1px;
+            margin-top: none;
+            align-items: center;
+            display: flex;
+        } 
+
+    /*header*/
+    .nav{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .header_item {
+        margin: 3px;
+        padding: 5px}
+    
+    ul.header_list {
+        margin: 2px;
+        padding: 2px;
+    }
+    
+    .btnindex{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 65px;
+        }
+
+        .imagenindex1 {
+            width: 200px;
+            height: 200px;
+            margin: 15px;
+        }
+        .row.info.aos-init.aos-animate {
+            margin-right: 20px;}
+        }
+
+        /*320*/
+
+        @media screen  and (max-width:320px){
+            .carrusel--img {
+                object-fit: cover;
+                object-position: center;
+                height: auto;
+            }
+            .carrusel--alto {
+              height: auto; 
+              padding: auto;
+            }
+
+            .tituloindex {
+                padding: 0px;}
+
+            .imagenindex1 {
+                width: 150px;
+                height: 150px;
+            }
+            a.btnindex {
+                display: block;
+                margin-left: 80px;
+            }
+        }
+
+/*responsive stock*/
+
+    @media screen and (max-width:768px) and (min-width:321px) {
+        .contenedor {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        
+    }}
+
+    @media screen and (max-width:320px) {
+
+    .header {
+            display: block;
+            height: auto;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;}
+
+    .header_list {
+         display: flex;
+        flex-direction: column;
+     }
+     .header_item {
+        display: inline-block;
+        margin: 2px;
+        padding: 5px;}
+
+    .maindestock {
+        display: block;
+        padding: 10px;
+    }   
+
+    .contenedor {
+    display: block;
+    text-align: center;}
+
+    .tamañoimagen {
+        height: 150px;
+        width: 150px;}
+
+    .contenedor{
+        border: 0px;
+    } 
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+       height: auto;
+        padding: 10px;
+        margin-top: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+    /*responsive mi planta*/
+
+    @media screen and (max-width:768px) and (min-width:321px) {
+       
+        .titulo1{padding: 10px;}
+
+        .container-fluid{
+            padding: 0px;
+        }
+
+        .info{
+            margin-right: 27px;
+            padding-right: 10px;
+        }
+
+        .btn1{
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+       
+        .mediafooter{
+            margin-top: 0px;
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        .titulo1 {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .info {
+            display: block;
+            flex-wrap: nowrap;
+            overflow-x: hidden;
+            margin: 0%;
+            text-align: center;
+            overflow-y: hidden;
+            padding: 10px;
+        }
+        
+    }
+    /*nosotros*/
+    @media screen and (max-width:768px) and (min-width:321px){
+        .videonosotros {
+            width: 340px;
+            height: 350px;
+        }
+        
+        .titulonosotros {
+            font-size: 40px; 
+    }
+    }
+
+    @media screen and (max-width:320px) {
+        .titulonosotros {
+            font-size: 30px;
+        }
+    }
+
+
+
+    /*contacto* 768 ta ok*/
+
+    @media screen and (max-width:768px) and (min-width:321px){
+        
+    }
+
+    @media screen and (max-width:320px) {
+
+        .titulocontacto {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .formulario {
+            width: auto;
+        }
+        .overflow{
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        
+         /*barnav*/
+        .logo{
+            display: block;
+        }
+    
+        .logo-nombre{
+            padding: 0px;
+        }
+        .botonmedio{
+            margin-left: 130px;
+        }
+    
+        .logo-imagen{
+            margin-left: 110px;
+        }
+    
+    }
+
+    body{
+        overflow-x: hidden;
+       
+    }

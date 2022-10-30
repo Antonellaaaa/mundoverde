@@ -1,0 +1,62 @@
+/*stock */
+
+.btn{
+    background-color: darksalmon;
+    color: black;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+    }
+    
+    /* hover a btn*/
+    
+    .btn:hover{ font-size: 2rem;
+    }
+    
+    /*boostrap btn saque stock*/
+    
+    .btn{
+        border-bottom: black;
+        padding:10px;
+        font-size:1rem;  
+        }
+    
+    .btn:hover{
+        font-size: 1.5rem;
+        background-color: salmon}
+
+    
+    .tamañoimagen{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .contenedor{
+        max-width: 1000px;
+        border: 10px solid black;
+       margin: auto;
+        font-size: 20px;
+        line-height: 5px;
+        text-align: center;
+    }
+     
+    .contenedor > div {
+    display: block;
+    padding: 5px;
+    color: black;
+    background-color:white
+    
+    }
+    
+    /*grid*/
+    
+    .maindestock{
+        display:flex;
+        padding: 48px;
+    }
+    
+    .contenedor{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }

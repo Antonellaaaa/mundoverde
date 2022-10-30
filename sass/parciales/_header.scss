@@ -1,0 +1,50 @@
+.logo-imagen{
+    width:100px;
+    height:80px;
+    border-radius: 100%;
+}
+
+.header{
+   
+    background-color:#117a3f; 
+}
+
+
+.header_item{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+nav a{ text-decoration: none;
+    color:black;
+    font-family:inherit
+}
+
+nav a:hover{
+    color:#fd9407;
+}
+
+.hover:hover{color:#fd9407;
+
+}
+
+.hover{color: black;}
+
+
+.logo{
+    display: flex;
+}
+
+.logo-nombre{
+        padding: 11px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #d2691e;
+        margin-left: 15px;
+        font-size: 39px;
+    }
+
+   
+
+    
