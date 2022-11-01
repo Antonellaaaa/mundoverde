@@ -1,10 +1,12 @@
 /*contacto formulario*/
 
+@import"./variables";
+
 .titulocontacto{
     font-size: 45px;
     display: flex;
     justify-content: center;
-    color: #117a3f;
+    color: $verde1;
     padding: 30px;
 }
 

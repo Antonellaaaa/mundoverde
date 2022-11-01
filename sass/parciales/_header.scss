@@ -1,3 +1,6 @@
+@import"./variables";
+
+
 .logo-imagen{
     width:100px;
     height:80px;
@@ -6,7 +9,7 @@
 
 .header{
    
-    background-color:#117a3f; 
+    background-color:$verde1;
 }
 
 
@@ -17,21 +20,21 @@
 }
 
 
-nav a{ text-decoration: none;
-    color:black;
-    font-family:inherit
+nav {
+	a {
+		text-decoration: none;
+		color: black;
+		font-family: inherit;
+		&:hover {
+			color: $marronhover;
+		}
+	}
 }
-
-nav a:hover{
-    color:#fd9407;
-}
-
-.hover:hover{color:#fd9407;
-
-}
-
-.hover{color: black;}
-
+.hover {
+	&:hover {
+		color: $marronhover;
+	}
+	color: black;}
 
 .logo{
     display: flex;
@@ -40,7 +43,7 @@ nav a:hover{
 .logo-nombre{
         padding: 11px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: #d2691e;
+        color: $marronheader;
         margin-left: 15px;
         font-size: 39px;
     }

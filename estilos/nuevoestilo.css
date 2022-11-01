@@ -16,15 +16,13 @@ nav a {
   text-decoration: none;
   color: black;
   font-family: inherit; }
-
-nav a:hover {
-  color: #fd9407; }
-
-.hover:hover {
-  color: #fd9407; }
+  nav a:hover {
+    color: #fd9407; }
 
 .hover {
   color: black; }
+  .hover:hover {
+    color: #fd9407; }
 
 .logo {
   display: flex; }
@@ -35,6 +33,9 @@ nav a:hover {
   color: #d2691e;
   margin-left: 15px;
   font-size: 39px; }
+
+body {
+  margin: 0%; }
 
 /*Mi planta*/
 .imageninfocard {
@@ -84,12 +85,6 @@ nav a:hover {
   box-shadow: 3px black;
   border: 1px solid black; }
 
-.logofooter {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  display: flex; }
-
 .footerredes {
   width: 30px;
   height: 30px; }
@@ -132,21 +127,14 @@ footer {
   display: inline-block;
   margin-top: 5px;
   padding: 10px;
-  text-decoration: none; }
-
-/* hover a btn*/
-.btn:hover {
-  font-size: 2rem; }
-
-/*boostrap btn saque stock*/
-.btn {
+  text-decoration: none;
   border-bottom: black;
   padding: 10px;
   font-size: 1rem; }
-
-.btn:hover {
-  font-size: 1.5rem;
-  background-color: salmon; }
+  .btn:hover {
+    font-size: 2rem;
+    font-size: 1.5rem;
+    background-color: salmon; }
 
 .tamañoimagen {
   height: 300px;
@@ -158,22 +146,19 @@ footer {
   margin: auto;
   font-size: 20px;
   line-height: 5px;
-  text-align: center; }
-
-.contenedor > div {
-  display: block;
-  padding: 5px;
-  color: black;
-  background-color: white; }
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  .contenedor > div {
+    display: block;
+    padding: 5px;
+    color: black;
+    background-color: white; }
 
 /*grid*/
 .maindestock {
   display: flex;
   padding: 48px; }
-
-.contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
 
 /*NOSOTROS*/
 .bloque1 {
@@ -235,7 +220,7 @@ footer {
   display: block;
   margin: 33px;
   width: 100px;
-  margin-left: 160px; }
+  margin-left: 140px; }
 
 /*RESPONSIVE HASTA index */
 @media screen and (max-width: 768px) and (min-width: 321px) {
@@ -342,7 +327,7 @@ footer {
     margin: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 70px; }
+    margin-top: 280px; }
   .mediafooter {
     margin-top: 0px; } }
 

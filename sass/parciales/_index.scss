@@ -1,4 +1,5 @@
 /*index*/
+@import"./variables";
 
 .contenedor-carrusel{
     margin-top: 35px;
@@ -21,7 +22,7 @@
     padding: 10px;
     font-size: 25px;
     color: #1d6933;
-    background-color: burlywood;
+    background-color: $destacados
 }
 
 .displayflex{
@@ -40,7 +41,7 @@
 }
 
 .btnindex{
-        background-color: #d2691e;
+        background-color: $marronheader;
         color: white;
         border-radius: 2px;
         font-weight: bold;
@@ -49,5 +50,5 @@
         display: block;
         margin: 33px;
         width: 100px;
-        margin-left: 160px;
+        margin-left: 140px;
     }
