@@ -299,15 +299,15 @@ footer {
     padding: 10px; }
   .container-fluid {
     padding: 0px; }
+  _titulo1_btn1 {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 280px; }
   .titulo1_info {
     margin-right: 27px;
     padding-right: 10px;
     height: 800px; }
-    .titulo1_info_titulo1_btn1 {
-      margin: 30px;
-      display: flex;
-      justify-content: center;
-      margin-top: 280px; }
   .mediafooter {
     margin-top: 0px; } }
 
