@@ -1,52 +1,61 @@
 @import"./variables";
 
 
-.logo-imagen{
-    width:100px;
-    height:80px;
-    border-radius: 100%;
-}
+
 
 .header{
    
     background-color:$verde1;
-}
 
+    &_logo{
+        display: flex;
+    }
 
-.header_item{
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-}
+    &_logo-imagen{
+        width:100px;
+        height:80px;
+        border-radius: 100%;
+    }
 
-
-nav {
-	a {
-		text-decoration: none;
-		color: black;
-		font-family: inherit;
-		&:hover {
-			color: $marronhover;
-		}
-	}
-}
-.hover {
-	&:hover {
-		color: $marronhover;
-	}
-	color: black;}
-
-.logo{
-    display: flex;
-}
-
-.logo-nombre{
+    &_logo-nombre{
         padding: 11px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: $marronheader;
         margin-left: 15px;
         font-size: 39px;
     }
+
+   &_item{
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    &_nav {
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: inherit;
+            &:hover {
+                color: $marronhover;
+            }
+        }
+    }
+}
+    .hover {
+        &:hover {
+            color: $marronhover;
+        }
+        color: black;}
+
+
+
+
+
+    
+
+
+
 
    
     body{

@@ -1,80 +1,69 @@
 @charset "UTF-8";
-.logo-imagen {
-  width: 100px;
-  height: 80px;
-  border-radius: 100%; }
-
 .header {
   background-color: #117a3f; }
-
-.header_item {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px; }
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-family: inherit; }
-  nav a:hover {
-    color: #fd9407; }
+  .header_logo {
+    display: flex; }
+  .header_logo-imagen {
+    width: 100px;
+    height: 80px;
+    border-radius: 100%; }
+  .header_logo-nombre {
+    padding: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #d2691e;
+    margin-left: 15px;
+    font-size: 39px; }
+  .header_item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px; }
+  .header_nav a {
+    text-decoration: none;
+    color: black;
+    font-family: inherit; }
+    .header_nav a:hover {
+      color: #fd9407; }
 
 .hover {
   color: black; }
   .hover:hover {
     color: #fd9407; }
 
-.logo {
-  display: flex; }
-
-.logo-nombre {
-  padding: 11px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #d2691e;
-  margin-left: 15px;
-  font-size: 39px; }
-
 body {
   margin: 0%; }
 
 /*Mi planta*/
-.imageninfocard {
-  width: 200px;
-  height: 200px; }
-
 .titulo1 {
   display: flex;
   justify-content: center;
   padding: 30px;
   color: #1d6933; }
-
-.info {
-  flex-wrap: nowrap;
-  overflow-x: hidden;
-  margin: 0%;
-  text-align: center;
-  overflow-y: hidden;
-  padding: 10px; }
-
-/* grillas*/
-.infocard {
-  background-color: white;
-  padding: 1rem 1rem; }
-
-.infocard p {
-  padding: 20px;
-  height: 250px; }
+  .titulo1_info {
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    margin: 0%;
+    text-align: center;
+    overflow-y: hidden;
+    padding: 10px; }
+  .titulo1_infocard {
+    background-color: white;
+    padding: 1rem 1rem; }
+  .titulo1_imageninfocard {
+    width: 200px;
+    height: 200px; }
+  .titulo1_btn1 {
+    background-color: #d2691e;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 5px 8px;
+    box-shadow: 2px 2px 10px black; }
+  .titulo1_infocard p {
+    padding: 20px;
+    height: 250px; }
 
 .infocard h3 {
   padding: 10px; }
-
-.btn1 {
-  background-color: #d2691e;
-  color: white;
-  border-radius: 2px;
-  font-weight: bold;
-  padding: 5px 8px;
-  box-shadow: 2px 2px 10px black; }
 
 .btnn {
   background-color: #d2691e;
@@ -113,141 +102,127 @@ footer {
   margin: 0% auto;
   border: 5px solid black;
   margin-top: 20px; }
-
-.borderform {
-  border: 2px solid black; }
-
-.botonform {
-  margin-top: 8px; }
+  .formulario_borderform {
+    border: 2px solid black; }
+  .formulario_botonform {
+    margin-top: 8px; }
 
 /*stock */
-.btn {
-  background-color: darksalmon;
-  color: black;
-  display: inline-block;
-  margin-top: 5px;
-  padding: 10px;
-  text-decoration: none;
-  border-bottom: black;
-  padding: 10px;
-  font-size: 1rem; }
-  .btn:hover {
-    font-size: 2rem;
-    font-size: 1.5rem;
-    background-color: salmon; }
-
-.tamañoimagen {
-  height: 300px;
-  width: 300px; }
-
-.contenedor {
-  max-width: 1000px;
-  border: 10px solid black;
-  margin: auto;
-  font-size: 20px;
-  line-height: 5px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
-  .contenedor > div {
-    display: block;
-    padding: 5px;
-    color: black;
-    background-color: white; }
-
 /*grid*/
 .maindestock {
   display: flex;
   padding: 48px; }
+  .maindestock_contenedor {
+    max-width: 1000px;
+    border: 10px solid black;
+    margin: auto;
+    font-size: 20px;
+    line-height: 5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+    .maindestock_contenedor > div {
+      display: block;
+      padding: 5px;
+      color: black;
+      background-color: white; }
+  .maindestock_tamañoimagen {
+    height: 300px;
+    width: 300px; }
+  .maindestock_btn {
+    background-color: darksalmon;
+    color: black;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: black;
+    padding: 10px;
+    font-size: 1rem; }
+    .maindestock_btn:hover {
+      font-size: 2rem;
+      font-size: 1.5rem;
+      background-color: salmon; }
 
 /*NOSOTROS*/
 .bloque1 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: black; }
-
-.titulonosotros {
-  color: #d2691e;
-  font-size: 50px;
-  border: 5px;
-  margin-top: 30px;
-  text-align: center; }
-
-.videonosotros {
-  width: 100%;
-  height: 100%; }
+  .bloque1_titulonosotros {
+    color: #d2691e;
+    font-size: 50px;
+    border: 5px;
+    margin-top: 30px;
+    text-align: center; }
+  .bloque1_videonosotros {
+    width: 100%;
+    height: 100%; }
 
 /*index*/
 .contenedor-carrusel {
   margin-top: 35px; }
-
-.carrusel--alto {
-  height: 70vh;
-  padding: 0px; }
-
-.carrusel--img {
-  object-fit: cover;
-  object-position: center;
-  height: 70vh; }
-
-.tituloindex {
-  margin-top: 41px;
-  display: inline-block;
-  padding: 10px;
-  font-size: 25px;
-  color: #1d6933;
-  background-color: burlywood; }
+  .contenedor-carruselcarrusel--alto {
+    height: 70vh;
+    padding: 0px; }
+  .contenedor-carruselcarrusel--img {
+    object-fit: cover;
+    object-position: center;
+    height: 70vh; }
 
 .displayflex {
   display: flex;
   justify-content: center; }
-
-.cardindex {
-  background-color: white;
-  padding: 1rem 1rem; }
-
-.imagenindex1 {
-  width: 200px;
-  height: 200px; }
-
-.btnindex {
-  background-color: #d2691e;
-  color: white;
-  border-radius: 2px;
-  font-weight: bold;
-  padding: 5px 8px;
-  box-shadow: 2px 2px 10px black;
-  display: block;
-  margin: 33px;
-  width: 100px;
-  margin-left: 164px; }
+  .displayflex_tituloindex {
+    margin-top: 41px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    color: #1d6933;
+    background-color: burlywood; }
+  .displayflex_cardindex {
+    background-color: white;
+    padding: 1rem 1rem; }
+  .displayflex_imagenindex1 {
+    width: 200px;
+    height: 200px; }
+  .displayflex_btnindex {
+    background-color: #d2691e;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 5px 8px;
+    box-shadow: 2px 2px 10px black;
+    display: block;
+    margin: 33px;
+    width: 100px;
+    margin-left: 164px; }
 
 /*RESPONSIVE HASTA index */
 @media screen and (max-width: 768px) and (min-width: 321px) {
-  .logo-nombre {
+  .header_logo-nombre {
     font-size: 30px;
     font-weight: bold;
     padding: 1px;
     margin-top: none;
     align-items: center;
     display: flex; }
-  /*header*/
-  .nav {
+  .header_nav {
     font-size: 15px;
     font-weight: bold; }
-  .header_item {
-    margin: 3px;
-    padding: 5px; }
+    .header_nav_item {
+      margin: 3px;
+      padding: 5px; }
   ul.header_list {
     margin: 2px;
     padding: 2px; }
-  .btnindex {
+  .displayflex_btnindex {
     display: flex;
     margin: auto;
     justify-content: center;
     margin-top: 20px;
     margin-left: 65px; }
-  .imagenindex1 {
+  .displayflex_imagenindex1 {
     width: 200px;
     height: 200px;
     margin: 15px; }
@@ -256,25 +231,25 @@ footer {
 
 /*320*/
 @media screen and (max-width: 320px) {
-  .carrusel--img {
-    object-fit: cover;
-    object-position: center;
-    height: auto; }
-  .carrusel--alto {
+  .contenedor_carrusel--alto {
     height: auto;
     padding: auto; }
-  .tituloindex {
+    .contenedor_carrusel--alto_carrusel--img {
+      object-fit: cover;
+      object-position: center;
+      height: auto; }
+  .displayflex_tituloindex {
     padding: 0px; }
-  .imagenindex1 {
+  .displayflex_imagenindex1 {
     width: 150px;
     height: 150px; }
-  a.btnindex {
+  .displayflex_a.btnindex {
     display: block;
     margin-left: 80px; } }
 
 /*responsive stock*/
 @media screen and (max-width: 768px) and (min-width: 321px) {
-  .contenedor {
+  .maindestock_contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr; } }
 
@@ -282,27 +257,27 @@ footer {
   .header {
     display: block;
     height: auto; }
-  .nav {
-    display: flex;
-    justify-content: center; }
+    .header_nav {
+      display: flex;
+      justify-content: center; }
+    .header_item {
+      display: inline-block;
+      margin: 2px;
+      padding: 5px; }
   .header_list {
     display: flex;
     flex-direction: column; }
-  .header_item {
-    display: inline-block;
-    margin: 2px;
-    padding: 5px; }
   .maindestock {
     display: block;
     padding: 10px; }
-  .contenedor {
-    display: block;
-    text-align: center; }
-  .tamañoimagen {
-    height: 150px;
-    width: 150px; }
-  .contenedor {
-    border: 0px; }
+    .maindestock_contenedor {
+      display: block;
+      text-align: center; }
+    .maindestock_tamañoimagen {
+      height: 150px;
+      width: 150px; }
+    .maindestock_contenedor {
+      border: 0px; }
   footer {
     background-color: black;
     color: white;
@@ -320,14 +295,14 @@ footer {
     padding: 10px; }
   .container-fluid {
     padding: 0px; }
-  .info {
+  .titulo1_info {
     margin-right: 27px;
     padding-right: 10px; }
-  .btn1 {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    margin-top: 280px; }
+    .titulo1_info_titulo1_btn1 {
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+      margin-top: 280px; }
   .mediafooter {
     margin-top: 0px; } }
 
@@ -336,7 +311,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px; }
-  .info {
+  .titulo1_info {
     display: block;
     flex-wrap: nowrap;
     overflow-x: hidden;
@@ -347,14 +322,14 @@ footer {
 
 /*nosotros*/
 @media screen and (max-width: 768px) and (min-width: 321px) {
-  .videonosotros {
+  .bloque1_videonosotros {
     width: 340px;
     height: 350px; }
-  .titulonosotros {
+  .bloque1_titulonosotros {
     font-size: 40px; } }
 
 @media screen and (max-width: 320px) {
-  .titulonosotros {
+  .bloque1_titulonosotros {
     font-size: 30px; } }
 
 /*contacto* 768 ta ok*/
@@ -368,14 +343,14 @@ footer {
     overflow-y: hidden;
     overflow-x: hidden; }
   /*barnav*/
-  .logo {
+  .header_logo {
     display: block; }
-  .logo-nombre {
-    padding: 0px; }
+    .header_logo_logo-nombre {
+      padding: 0px; }
+    .header_logo_logo-imagen {
+      margin-left: 110px; }
   .botonmedio {
-    margin-left: 130px; }
-  .logo-imagen {
-    margin-left: 110px; } }
+    margin-left: 130px; } }
 
 body {
   overflow-x: hidden; }

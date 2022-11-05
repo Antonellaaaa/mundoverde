@@ -1,29 +1,13 @@
 /*stock */
 @import"./variables";
 
-.btn {
-	background-color: $btnstock;
-	color: black;
-	display: inline-block;
-	margin-top: 5px;
-	padding: 10px;
-	text-decoration: none;
-	border-bottom: black;
-	padding: 10px;
-	font-size: 1rem;
-	&:hover {
-		font-size: 2rem;
-		font-size: 1.5rem;
-		background-color: $salmon;
-	}
-}
+ /*grid*/
     
-    .tamañoimagen{
-        height: 300px;
-        width: 300px;
-    }
-    
-    .contenedor {
+ .maindestock{
+    display:flex;
+    padding: 48px;
+
+    &_contenedor {
         max-width: 1000px;
         border: 10px solid black;
         margin: auto;
@@ -39,13 +23,35 @@
             background-color: white;
         }
     }
-    
-    
-    /*grid*/
-    
-    .maindestock{
-        display:flex;
-        padding: 48px;
+
+    &_tamañoimagen{
+        height: 300px;
+        width: 300px;
     }
+
+&_btn {
+	background-color: $btnstock;
+	color: black;
+	display: inline-block;
+	margin-top: 5px;
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: black;
+	padding: 10px;
+	font-size: 1rem;
+	&:hover {
+		font-size: 2rem;
+		font-size: 1.5rem;
+		background-color: $salmon;
+	}
+}
+ }
+    
+   
+    
+    
+    
+    
+   
     
     

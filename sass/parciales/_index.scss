@@ -3,20 +3,27 @@
 
 .contenedor-carrusel{
     margin-top: 35px;
-}
-.carrusel--alto{
+
+&carrusel--alto{
     height: 70vh;
     padding: 0px;
    
 }
 
-.carrusel--img{
+&carrusel--img{
     object-fit: cover;
     object-position: center;
     height: 70vh;
 }
 
-.tituloindex{
+}
+
+.displayflex{
+    display: flex;
+    justify-content: center;
+
+
+&_tituloindex{
     margin-top: 41px;
     display: inline-block;
     padding: 10px;
@@ -25,22 +32,17 @@
     background-color: $destacados
 }
 
-.displayflex{
-    display: flex;
-    justify-content: center;
-}
-
-.cardindex{
+&_cardindex{
     background-color:white;
     padding: 1rem 1rem;
 }
 
-.imagenindex1{
+&_imagenindex1{
     width: 200px;
     height: 200px;
 }
 
-.btnindex{
+&_btnindex{
         background-color: $marronheader;
         color: white;
         border-radius: 2px;
@@ -52,3 +54,4 @@
         width: 100px;
         margin-left: 164px;
     }
+}
