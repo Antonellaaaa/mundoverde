@@ -56,6 +56,10 @@
                 object-position: center;
                 height: auto;
             }
+
+            .header_logo-imagen{
+                margin-left: 40px;
+            }
         }
 
             .displayflex_tituloindex {
@@ -87,6 +91,10 @@
     .header {
             display: block;
             height: auto;
+            
+            &_logo-imagen{
+                margin-left: 40px;
+            }
     
     &_nav {
         display: flex;
@@ -149,6 +157,7 @@
         .titulo1_info{
             margin-right: 27px;
             padding-right: 10px;
+            height: 700px;
         
 
         &_titulo1_btn1{
@@ -181,6 +190,9 @@
             padding: 10px;
         }
         
+        .header_logo-imagen{
+            margin-left: 40px;
+        }
         
     }
     /*nosotros*/
@@ -198,6 +210,13 @@
     @media screen and (max-width:320px) {
         .bloque1_titulonosotros {
             font-size: 30px;
+        }
+        
+    }
+
+    @media screen and (max-width:320px) {
+        .header_logo-imagen{
+            margin-left: 40px;
         }
         
     }
@@ -234,8 +253,11 @@
         &_logo-nombre{
             padding: 0px;
         }
-        
-       
+          
+    }
+
+    .header_logo-imagen{
+        margin-left: 40px;
     }
         .botonmedio{
             margin-left: 130px;

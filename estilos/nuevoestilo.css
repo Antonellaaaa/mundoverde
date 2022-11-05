@@ -238,6 +238,8 @@ footer {
       object-fit: cover;
       object-position: center;
       height: auto; }
+    .contenedor_carrusel--alto .header_logo-imagen {
+      margin-left: 40px; }
   .displayflex_tituloindex {
     padding: 0px; }
   .displayflex_imagenindex1 {
@@ -257,6 +259,8 @@ footer {
   .header {
     display: block;
     height: auto; }
+    .header_logo-imagen {
+      margin-left: 40px; }
     .header_nav {
       display: flex;
       justify-content: center; }
@@ -297,7 +301,8 @@ footer {
     padding: 0px; }
   .titulo1_info {
     margin-right: 27px;
-    padding-right: 10px; }
+    padding-right: 10px;
+    height: 700px; }
     .titulo1_info_titulo1_btn1 {
       margin: 30px;
       display: flex;
@@ -318,7 +323,9 @@ footer {
     margin: 0%;
     text-align: center;
     overflow-y: hidden;
-    padding: 10px; } }
+    padding: 10px; }
+  .header_logo-imagen {
+    margin-left: 40px; } }
 
 /*nosotros*/
 @media screen and (max-width: 768px) and (min-width: 321px) {
@@ -331,6 +338,10 @@ footer {
 @media screen and (max-width: 320px) {
   .bloque1_titulonosotros {
     font-size: 30px; } }
+
+@media screen and (max-width: 320px) {
+  .header_logo-imagen {
+    margin-left: 40px; } }
 
 /*contacto* 768 ta ok*/
 @media screen and (max-width: 320px) {
@@ -348,6 +359,8 @@ footer {
     margin-left: 60px; }
     .header_logo_logo-nombre {
       padding: 0px; }
+  .header_logo-imagen {
+    margin-left: 40px; }
   .botonmedio {
     margin-left: 130px; } }
 
