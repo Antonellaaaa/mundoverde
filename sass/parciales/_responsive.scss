@@ -70,16 +70,7 @@
                 margin-left: 80px;
             }
 
-            .header_logo-imagen{
-                width: 100%;
-                height: 80px;
-                border-radius: 100%;
-                margin-left: 40px;
-            }
-            .header_logo{
-                display: block;
-                margin-left: 60px;
-            }
+           
         }
 
 /*responsive stock*/
@@ -92,16 +83,7 @@
     }}
 
     @media screen and (max-width:320px) {
-        .header_logo-imagen{
-            width: 100%;
-            height: 80px;
-            border-radius: 100%;
-            margin-left: 40px;
-        }
-        .header_logo{
-            display: block;
-            margin-left: 60px;
-        }
+       
     .header {
             display: block;
             height: auto;
@@ -198,16 +180,7 @@
             overflow-y: hidden;
             padding: 10px;
         }
-        .header_logo-imagen{
-            width: 100%;
-            height: 80px;
-            border-radius: 100%;
-            margin-left: 40px;
-        }
-        .header_logo{
-            display: block;
-            margin-left: 60px;
-        }
+        
         
     }
     /*nosotros*/
@@ -226,16 +199,7 @@
         .bloque1_titulonosotros {
             font-size: 30px;
         }
-        .header_logo-imagen{
-            width: 100%;
-            height: 80px;
-            border-radius: 100%;
-            margin-left: 40px;
-        }
-        .header_logo{
-            display: block;
-            margin-left: 60px;
-        }
+        
     }
 
 
@@ -271,9 +235,7 @@
             padding: 0px;
         }
         
-        &_logo-imagen{
-            margin-left: 40px;
-        }
+       
     }
         .botonmedio{
             margin-left: 130px;
