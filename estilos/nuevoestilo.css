@@ -6,7 +6,8 @@
   .header_logo-imagen {
     width: 100px;
     height: 80px;
-    border-radius: 100%; }
+    border-radius: 100%;
+    object-fit: cover; }
   .header_logo-nombre {
     padding: 11px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,7 +51,8 @@ body {
     padding: 1rem 1rem; }
   .titulo1_imageninfocard {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    object-fit: cover; }
   .titulo1_btn1 {
     background-color: #d2691e;
     color: white;
@@ -76,7 +78,8 @@ body {
 
 .footerredes {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  object-fit: cover; }
 
 footer {
   background-color: black;
@@ -128,7 +131,8 @@ footer {
       background-color: white; }
   .maindestock_tamañoimagen {
     height: 300px;
-    width: 300px; }
+    width: 300px;
+    object-fit: cover; }
   .maindestock_btn {
     background-color: darksalmon;
     color: black;
@@ -185,7 +189,8 @@ footer {
     padding: 1rem 1rem; }
   .displayflex_imagenindex1 {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    object-fit: cover; }
   .displayflex_btnindex {
     background-color: #d2691e;
     color: white;
@@ -279,7 +284,8 @@ footer {
       text-align: center; }
     .maindestock_tamañoimagen {
       height: 150px;
-      width: 150px; }
+      width: 150px;
+      object-fit: cover; }
     .maindestock_contenedor {
       border: 0px; }
   footer {
