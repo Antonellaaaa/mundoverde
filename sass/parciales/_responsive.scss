@@ -37,12 +37,11 @@
         .displayflex_imagenindex1 {
             width: 200px;
             height: 200px;
+            object-fit: cover;
             margin: 15px;
         }
-        .row.info.aos-init.aos-animate {
-            margin-right: 20px;}
-        }
-
+    }
+        
         /*320*/
 
         @media screen  and (max-width:320px){
@@ -68,6 +67,7 @@
             .displayflex_imagenindex1 {
                 width: 150px;
                 height: 150px;
+                object-fit: cover;
             }
             .displayflex_btnindex {
                 display: block;
